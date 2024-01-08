@@ -3,18 +3,18 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@reduxjs/toolkit": "^1.4.0",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "classnames": "^2.2.6",
-    "faker": "^4.1.0",
-    "miragejs": "^0.1.35",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-redux": "^7.2.1",
-    "react-scripts": "3.4.3",
-    "reselect": "^4.0.0",
+    "@reduxjs/toolkit": "^2.0.1",
+    "@testing-library/jest-dom": "^6.2.0",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/user-event": "^14.5.2",
+    "classnames": "^2.5.1",
+    "@faker-js/faker": "^8.3.1",
+    "miragejs": "^0.1.48",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.0.4",
+    "react-scripts": "^5.0.1",
+    "reselect": "^5.1.0",
     "seedrandom": "^3.0.5"
   },
   "scripts": {
@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
-    "prettier": "^2.0.2"
+    "prettier": "^3.1.1",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }

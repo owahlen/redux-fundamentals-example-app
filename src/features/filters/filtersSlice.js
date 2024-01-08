@@ -33,6 +33,7 @@ const filtersSlice = createSlice({
             state.colors = colors.filter(
               (existingColor) => existingColor !== color
             )
+            break
           }
           default:
             return
